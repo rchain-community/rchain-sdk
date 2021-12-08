@@ -9,4 +9,4 @@
 - RChain token standards implementation.
 
 
-![](rchain-sdk.png)
+![](rchain-sdk2.png)
