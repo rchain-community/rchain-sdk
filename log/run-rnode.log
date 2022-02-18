@@ -1,0 +1,118 @@
+15:01:38.729 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mcoop.rchain.node.Main$       [0;39m] - RChain Node 0.12.3 (e44e79e7f2c67cbec8b30268a46cc5abb3228dec)
+15:01:38.732 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mcoop.rchain.node.Main$       [0;39m] - Starting with profile default
+15:01:38.733 [[31mWARN [0;39m] [[36mmain                [0;39m] [[36mcoop.rchain.node.Main$       [0;39m] - No configuration file found, using defaults
+15:01:38.733 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mcoop.rchain.node.Main$       [0;39m] - Running on network: testnet
+15:01:38.888 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mc.r.node.NodeEnvironment$    [0;39m] - Using data dir: /Users/davidasamonye/.rnode
+15:01:39.050 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mcoop.rchain.comm.UPnP$       [0;39m] - trying to open ports using UPnP....
+15:01:48.085 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mcoop.rchain.comm.UPnP$       [0;39m] - INFO - No gateway devices found
+15:01:48.086 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mcoop.rchain.comm.UPnP$       [0;39m] - No need to open any port
+15:01:48.087 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mcoop.rchain.comm.WhoAmI$     [0;39m] - flag --host was not provided, guessing your external IP address
+15:01:48.505 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mcoop.rchain.comm.WhoAmI$     [0;39m] - guessed 197.210.226.160 from source: AmazonAWS service
+15:01:51.230 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mc.r.b.dag.BlockMetadataStore$[0;39m] - Building in-memory blockMetadataStore.
+15:01:51.269 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mc.r.b.dag.BlockMetadataStore$[0;39m] - Reading data from blockMetadataStore done.
+15:01:51.301 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mc.r.b.dag.BlockMetadataStore$[0;39m] - Successfully built in-memory blockMetadataStore.
+15:01:53.909 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mc.r.c.e.CasperLaunch$$anon$1 [0;39m] - Approved block found, reconnecting to existing network
+15:01:53.938 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mc.r.casper.engine.Engine$    [0;39m] - Making a transition to Running state. Approved Block #0 (2f5bb90e3c...) with empty parents (supposedly genesis)
+15:01:53.948 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mc.r.node.runtime.NodeRuntime [0;39m] - Starting stand-alone node.
+15:01:54.204 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mc.r.n.r.ServersInstances$    [0;39m] - HTTP API server started at 0.0.0.0:40403
+15:01:54.207 [[34mINFO [0;39m] [[36mmain                [0;39m] [[36mc.r.n.r.ServersInstances$    [0;39m] - Admin HTTP API server started at 0.0.0.0:40405
+15:01:54.313 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+15:01:54.316 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.c.e.CasperLaunch$$anon$1 [0;39m] - Checking pendant hashes: 0 items in CasperBuffer.
+15:01:54.376 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.n.r.ServersInstances$    [0;39m] - Internal API server started at 197.210.226.160:40402
+15:01:54.376 [[34mINFO [0;39m] [[36mnode-runner-38      [0;39m] [[36mc.r.n.r.ServersInstances$    [0;39m] - External API server started at 0.0.0.0:40401
+15:01:54.376 [[34mINFO [0;39m] [[36mnode-runner-34      [0;39m] [[36mc.r.n.r.ServersInstances$    [0;39m] - Kademlia RPC server started at 197.210.226.160:40404
+15:01:55.161 [[34mINFO [0;39m] [[36mnode-runner-44      [0;39m] [[36mc.r.n.r.ServersInstances$    [0;39m] - Listening for traffic on rnode://f453a66c7691d75807c18ae3d6a2b37c83c5e234@197.210.226.160?protocol=40400&discovery=40404.
+16:11:31.561 [[34mINFO [0;39m] [[36mnode-runner-41      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+16:11:31.561 [[34mINFO [0;39m] [[36mnode-runner-41      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+16:22:31.598 [[34mINFO [0;39m] [[36mnode-runner-38      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+16:22:31.599 [[34mINFO [0;39m] [[36mnode-runner-38      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+16:33:31.618 [[34mINFO [0;39m] [[36mnode-runner-44      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+16:33:31.619 [[34mINFO [0;39m] [[36mnode-runner-44      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+16:44:31.636 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+16:44:31.637 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+16:55:31.638 [[34mINFO [0;39m] [[36mnode-runner-31      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+16:55:31.638 [[34mINFO [0;39m] [[36mnode-runner-31      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+17:06:31.619 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+17:06:31.619 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+17:17:31.731 [[34mINFO [0;39m] [[36mnode-runner-38      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+17:17:31.732 [[34mINFO [0;39m] [[36mnode-runner-38      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+17:28:31.753 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+17:28:31.753 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+17:39:31.873 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+17:39:31.873 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+17:50:31.940 [[34mINFO [0;39m] [[36mnode-runner-42      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+17:50:31.940 [[34mINFO [0;39m] [[36mnode-runner-42      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+18:01:31.977 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+18:01:31.977 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+18:12:31.907 [[34mINFO [0;39m] [[36mnode-runner-34      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+18:12:31.908 [[34mINFO [0;39m] [[36mnode-runner-34      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+18:23:31.917 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+18:23:31.917 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+18:34:31.904 [[34mINFO [0;39m] [[36mnode-runner-31      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+18:34:31.904 [[34mINFO [0;39m] [[36mnode-runner-31      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+18:45:31.927 [[34mINFO [0;39m] [[36mnode-runner-44      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+18:45:31.928 [[34mINFO [0;39m] [[36mnode-runner-44      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+19:41:06.894 [[34mINFO [0;39m] [[36mnode-runner-34      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+19:41:06.896 [[34mINFO [0;39m] [[36mnode-runner-34      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+06:08:41.083 [[34mINFO [0;39m] [[36mnode-runner-30      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+06:08:41.092 [[34mINFO [0;39m] [[36mnode-runner-30      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+11:25:20.970 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+11:25:20.974 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+11:36:21.093 [[34mINFO [0;39m] [[36mnode-runner-34      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+11:36:21.093 [[34mINFO [0;39m] [[36mnode-runner-34      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+11:47:36.805 [[34mINFO [0;39m] [[36mnode-runner-41      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+11:47:36.805 [[34mINFO [0;39m] [[36mnode-runner-41      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+11:58:36.858 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+11:58:36.858 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+12:09:36.842 [[34mINFO [0;39m] [[36mnode-runner-30      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+12:09:36.842 [[34mINFO [0;39m] [[36mnode-runner-30      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+12:20:36.941 [[34mINFO [0;39m] [[36mnode-runner-45      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+12:20:36.941 [[34mINFO [0;39m] [[36mnode-runner-45      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+12:31:36.984 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+12:31:36.984 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+12:42:37.095 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+12:42:37.096 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+12:53:37.134 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+12:53:37.135 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+13:04:37.182 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+13:04:37.182 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+13:15:37.229 [[34mINFO [0;39m] [[36mnode-runner-31      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+13:15:37.231 [[34mINFO [0;39m] [[36mnode-runner-31      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+13:26:37.096 [[34mINFO [0;39m] [[36mnode-runner-30      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+13:26:37.097 [[34mINFO [0;39m] [[36mnode-runner-30      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+14:11:10.997 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+14:11:10.998 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+15:24:09.024 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+15:24:09.024 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+15:35:09.067 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+15:35:09.067 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+15:46:09.113 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+15:46:09.113 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+15:57:09.090 [[34mINFO [0;39m] [[36mnode-runner-41      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+15:57:09.090 [[34mINFO [0;39m] [[36mnode-runner-41      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+16:08:09.126 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+16:08:09.127 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+16:19:08.964 [[34mINFO [0;39m] [[36mnode-runner-38      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+16:19:08.965 [[34mINFO [0;39m] [[36mnode-runner-38      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+16:30:08.983 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+16:30:08.984 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+16:41:09.051 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+16:41:09.052 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+16:52:09.154 [[34mINFO [0;39m] [[36mnode-runner-31      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+16:52:09.155 [[34mINFO [0;39m] [[36mnode-runner-31      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+17:03:09.191 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+17:03:09.192 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+17:14:09.124 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+17:14:09.125 [[34mINFO [0;39m] [[36mnode-runner-37      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+17:25:09.208 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+17:25:09.208 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+17:36:09.246 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+17:36:09.247 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+17:47:09.263 [[34mINFO [0;39m] [[36mnode-runner-31      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+17:47:09.263 [[34mINFO [0;39m] [[36mnode-runner-31      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+17:58:09.157 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+17:58:09.157 [[34mINFO [0;39m] [[36mnode-runner-33      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+18:09:09.304 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+18:09:09.304 [[34mINFO [0;39m] [[36mnode-runner-35      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
+18:20:09.340 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.casper.engine.Running$   [0;39m] - Requesting tips update as newest latest message is more then 10 minutes old. Might be network is faulty.
+18:20:09.341 [[34mINFO [0;39m] [[36mnode-runner-43      [0;39m] [[36mc.r.c.util.comm.CommUtilOps  [0;39m] - Requested fork tip from peers
